@@ -1,3 +1,21 @@
 body html{
     height: 100%;
 }
+@media(max-width:600px){
+    .some-peq{
+        display: none;
+    }
+}
+
+/* estilos da barra de  navegação */
+.bg-barra{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.cor-menu li a{
+    color: #fff;
+}
+.cor-menu li a:hover{
+    color: #0083D9;
+    transform: scale(1.08,1.08) translateY(-0.3em);
+    transition: ease 0.5s;
+}
