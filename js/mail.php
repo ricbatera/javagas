@@ -61,9 +61,11 @@ $status = mail($email_to, mb_encode_mimeheader($subject, "utf-8"), $corpo, $head
 
 if ($status):
   // Enviada com sucesso
-  header('location:index.php?status=sucesso');
+  echo "<script type='javascript'>alert('Currículo enviado com Sucesso!');";
+  header('location:../index.html?status=sucesso');
 else:
   // Se der erro
-  header('location:index.php?status=erro');
+  echo "<script type='javascript'>alert('Erro ao enviar, tente novamente!');";
+  header('location:../index.html?status=erro');
 endif;
 ?>

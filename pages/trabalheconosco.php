@@ -79,8 +79,8 @@
         <label for="cnh-yn">Possui CNH?</label>
         <select name="possui-cnh" class="form-control">
             <option>Selecione...</option>
-            <option value="1">Sim</option>
-            <option value="2">Não</option>
+            <option value="SIM">Sim</option>
+            <option value="NAO">Não</option>
           </select> 
        </div>
        <div class="form-group col-md-2">
@@ -101,29 +101,29 @@
      <label for="formacao">Formação</label>
      <select name="formacao" class="form-control">
         <option>Selecione...</option>
-        <option value="1">Ensino Fundamental Completo</option>
-        <option value="2">Ensino Fundamental Imcompleto</option>
-        <option value="3">Ensino Médio Completo</option>
-        <option value="4">Ensino Médio Incompleto</option>
-        <option value="5">Ensino Superior Completo</option>
-        <option value="6">Ensino Superior Incompleto</option>
+        <option value="Ensino Fundamental Completo">Ensino Fundamental Completo</option>
+        <option value="Ensino Fundamental Imcompleto">Ensino Fundamental Imcompleto</option>
+        <option value="Ensino Médio Completo">Ensino Médio Completo</option>
+        <option value="Ensino Médio Incompleto">Ensino Médio Incompleto</option>
+        <option value="Ensino Superior Completo">Ensino Superior Completo</option>
+        <option value="Ensino Superior Incompleto">Ensino Superior Incompleto</option>
       </select>
     </div>
     <div class="form-group col-md-2">
      <label for="estado-civil">Estado Civil</label>
      <select name="estado-civil" class="form-control">
         <option>Selecione...</option>
-        <option value="1">Solteiro</option>
-        <option value="2">Casado</option>
-        <option value="2">Outros</option>
+        <option value="SOLTEIRO">Solteiro</option>
+        <option value="CASADO">Casado</option>
+        <option value="OUTROS">Outros</option>
       </select>
     </div>
     <div class="form-group col-md-2">
      <label for="dependentes">Possui Dependentes?</label>
      <select name="dependentes" class="form-control">
          <option>Selecione...</option>
-         <option value="1">Sim</option>
-         <option value="2">Não</option>
+         <option value="SIM">Sim</option>
+         <option value="NÃO">Não</option>
        </select> 
     </div>
     <div class="form-group col-md-2">
